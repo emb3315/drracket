@@ -42,7 +42,83 @@ keyword: e.g. define
 
 set! = set bang
 
+____________________________________________________________________
 
+Syntax = grammar, the collection of rules that a phrase must follow to qualify as a valid sentence.
+Semantics = meaning, 
+Syntax error = improper code formation
 
+function - element - element - element - element
+
+Simple syntax is a defining characteristic of the Lisp family of languages.
+
+reader: part of a compiler or interpreter
+
+brackets are often used to group conditionals
+parentheses are used for function applications
+
+code alone will not make Racketeers happy, code with comments on the other hand...
+
+line comment, indicated by ; 
+    wherever Racket sees a semicolorn, it considers the rest of the line a comment.
+block comment, indicated by #| at the start, |# at the end
+    useful for large blocks of commentary
+s-expression comment, indicated with #;
+    it tells Racket to ignore the next parenthesized epression
+    
+    
+pieces of data are the basic building blocks of meaning
+
+Data types:
+Booleans, binary, answers to yes/no questions
+Symbols, case sensitive
+Numbers, floating-point numbers, integers, rationals, complex numbers
+Strings, because humans communicate with text
+
+string-append
+
+Help Desk, move your cursor over a name and press F1
+
+Lists in Racket
+
+CONS cells
+  fxns for cons cell
+  raw cons cell
+  
+car cell
+cdr cell
+
+manipulating lists in Racket, three basic functions
+  empty
+  '()
+  (list)
+  
+  CONS Function
+    using cons = consing
+    
+  FIRST
+  
+  REST
+    
+  LIST Function
+  
+  Nested Lists
+  
+ Functions for accessing the first through tenth elements are built in.
+ 
+ 
+ Structures in Racket
+ 
+ Structure definition: struct
+ 
+ instance
+ fields
+ accessors
+ 
+ field selectors, selectors
+ 
+ structure transparency  #:transparent
+ 
+ nesting structures
 
 
