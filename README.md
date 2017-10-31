@@ -44,8 +44,8 @@ set! = set bang
 
 ____________________________________________________________________
 
-Syntax = grammar, the collection of rules that a phrase must follow to qualify as a valid sentence.
-Semantics = meaning, 
+Syntax = grammar, the collection of rules that a phrase must follow to qualify as a valid sentence, differs among languages
+Semantics = meaning, the actions that a computer performs in response to a program make up its semantics
 Syntax error = improper code formation
 
 function - element - element - element - element
@@ -121,4 +121,5 @@ manipulating lists in Racket, three basic functions
  
  nesting structures
 
+_______________________________________________________________
 
