@@ -1,0 +1,17 @@
+(define BALL (circle 50 "solid" "teal"))
+(define BACKGROUND (rectangle 700 200 "solid" "orange"))
+
+
+(place-image BALL 50 50 BACKGROUND)
+(place-image BALL 100 100 BACKGROUND)
+(place-image BALL 150 150 BACKGROUND)
+(place-image BALL 200 100 BACKGROUND)
+(place-image BALL 250 50 BACKGROUND)
+(place-image BALL 300 100 BACKGROUND)
+(place-image BALL 350 150 BACKGROUND)
+(place-image BALL 400 100 BACKGROUND)
+(place-image BALL 450 50 BACKGROUND)
+(place-image BALL 500 100 BACKGROUND)
+(place-image BALL 550 150 BACKGROUND)
+(place-image BALL 600 100 BACKGROUND)
+(place-image BALL 650 50 BACKGROUND)
